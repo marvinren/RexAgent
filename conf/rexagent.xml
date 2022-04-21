@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <server>
+        <listen>:2465</listen>
+    </server>
+    <log>
+        <path>/tmp/log/</path>
+        <level>4</level>
+    </log>
+
+
+    <vars id="vars">
+        <var id="foo">
+            <value>bar</value>
+        </var>
+        <var id="hello" expand="true">
+            <value>${world}</value>
+        </var>
+    </vars>
+
+</config>

@@ -1,0 +1,105 @@
+{
+  "nodeList": [
+    {
+      "nodeId": "huej738hbji",
+      "left": "148px",
+      "top": "93px",
+      "class": "workflow-right-clone",
+      "icon": "iconfont icon-gongju",
+      "name": "引擎",
+      "id": "11"
+    },
+    {
+      "nodeId": "52kcszzyxrd",
+      "left": "458px",
+      "top": "203px",
+      "class": "workflow-right-clone",
+      "icon": "iconfont icon-shouye_dongtaihui",
+      "name": "模版",
+      "id": "12",
+      "type": "node",
+      "label": "",
+      "from": [
+        {
+          "type": "input",
+          "label": "等级",
+          "prop": "grade",
+          "placeholder": "请输入等级",
+          "required": true,
+          "disabled": false
+        },
+        {
+          "type": "input",
+          "label": "登记密码",
+          "prop": "password",
+          "placeholder": "请输入登记密码",
+          "required": true,
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "nodeId": "nltskl6k4me",
+      "left": "164px",
+      "top": "350px",
+      "class": "workflow-right-clone",
+      "icon": "iconfont icon-zhongduancanshuchaxun",
+      "name": "名称",
+      "id": "13"
+    },
+    {
+      "nodeId": "a",
+      "left": "164px",
+      "top": "350px",
+      "class": "workflow-right-clone",
+      "icon": "iconfont icon-zhongduancanshuchaxun",
+      "name": "a",
+      "id": "a"
+    },
+    {
+      "nodeId": "b",
+      "left": "164px",
+      "top": "350px",
+      "class": "workflow-right-clone",
+      "icon": "iconfont icon-zhongduancanshuchaxun",
+      "name": "b",
+      "id": "b"
+    },
+    {
+      "nodeId": "c",
+      "left": "164px",
+      "top": "350px",
+      "class": "workflow-right-clone",
+      "icon": "iconfont icon-zhongduancanshuchaxun",
+      "name": "c",
+      "id": "c"
+    }
+  ],
+  "lineList": [
+    {
+      "sourceId": "huej738hbji",
+      "targetId": "52kcszzyxrd",
+      "label": "传送"
+    },
+    {
+      "sourceId": "huej738hbji",
+      "targetId": "nltskl6k4me",
+      "label": ""
+    },
+    {
+      "sourceId": "huej738hbji",
+      "targetId": "a",
+      "label": ""
+    },
+    {
+      "sourceId": "a",
+      "targetId": "b",
+      "label": ""
+    },
+    {
+      "sourceId": "b",
+      "targetId": "c",
+      "label": ""
+    }
+  ]
+}
